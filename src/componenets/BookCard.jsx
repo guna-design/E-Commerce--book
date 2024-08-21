@@ -48,7 +48,7 @@ const BookCard = ({headline,books}) => {
         className="mySwiper w-full h-full"
       >
         
-       {
+       {/* {
         books.map(books=><SwiperSlide key={books._id}>
 
             <Link to={`/book/${books._id}`}>
@@ -69,7 +69,9 @@ const BookCard = ({headline,books}) => {
                 </div>
             </Link>
         </SwiperSlide>)
-       }
+       } */}
+
+       <p>book 1</p>
       </Swiper>
  </div>
  
