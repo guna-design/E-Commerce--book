@@ -70,8 +70,6 @@ const BookCard = ({headline,books}) => {
             </Link>
         </SwiperSlide>)
        }
-
-       <p>book 1</p>
       </Swiper>
  </div>
  

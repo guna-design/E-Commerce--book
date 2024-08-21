@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <header className='w-full bg-transparent fixed top-0 left-0 right-0 transition-all ease-in duration-300 z-40'>
         <nav className={`py-4 lg:px-24 px-4 ${isSticky ? "sticky top-0 left-0 right-0 bg-red-300":""}`}>
-            <div className='flex justify-between item-center text-bsae gap-8'>
+            <div className='flex justify-between item-center text-base gap-8'>
                 {/* logo */}
                 <Link to='/'className='text-2xl font-bold text-red-700 item-center gap-2 '>< MdMenuBook className='inline-block ' />Books</Link>
                 {/* nav item for larger device */}
@@ -52,8 +52,8 @@ const Navbar = () => {
                 </div>
 
             {/* menu button for mobile device */}
-          <div className='md:hidden'>
-          <button onClick={toggleMenu} className='text-black'>{
+          <div className='md:hidden mr-10'>
+          <button onClick={toggleMenu} className='text-black left-10'>{
                 isMenuOpen?<FaXmark className='h-5 w-5 text-black'/>:<FaBarsStaggered className='h-5 w-5 text-black'/>
                 
                 }</button>
